@@ -4,7 +4,7 @@
 
 Unity Message중 하나인 Update의 호출시 비용을 테스트하기 위한 유니티 프로젝트입니다.
 n개의 작업을 위해 n개의 Update를 호출할 때의 프레임 시간과 1개의 Update를 호출할 때의 프레임 시간을 비교함으로, Update를 호출할 때의 비용을 확인합니다.
-그 외 자세한 내용은 [블로그 포스트](https://leehs27.github.io/programming/2021-04-16-UpdateCallsCost/){:target="_blank"}를 참조해주시기 바랍니다.
+그 외 자세한 내용은 [블로그 포스트](https://leehs27.github.io/programming/2021-04-16-UpdateCallsCost/)를 참조해주시기 바랍니다.
 
 ### 실행 방법
 
