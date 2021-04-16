@@ -15,6 +15,9 @@ public class BehaviourCloner : MonoBehaviour
     {
         for(int i = 0 ; i < length ; i++)
         {
+            GameObject gameObject = new GameObject();
+            gameObject.name = i.ToString();
+            gameObject.transform.parent = transform;
             gameObject.AddComponent(behaviourComponent.GetType());
         }
     }

@@ -6,12 +6,12 @@ public class CustomUpdateManager : MonoBehaviour
 {
     private CustomUpdateBehaviour[] customUpdateBehaviours;
 
-    void Start()
+    private void Start()
     {
-        customUpdateBehaviours = GetComponents<CustomUpdateBehaviour>();
+        customUpdateBehaviours = GetComponentsInChildren<CustomUpdateBehaviour>();
     }
 
-    void Update()
+    private void Update()
     {
         foreach(var customUpdateBehaviour in customUpdateBehaviours)
         {

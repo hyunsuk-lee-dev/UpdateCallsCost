@@ -18,7 +18,7 @@ public class CoroutineUpdateBehaviour : MonoBehaviour
         while(true)
         {
             count++;
-            yield return null;
+            yield return new WaitForEndOfFrame();
         }
     }
 }
