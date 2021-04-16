@@ -8,7 +8,7 @@ n개의 작업을 위해 n개의 Update를 호출할 때의 프레임 시간과 
 
 ### 실행 방법
 
-1. Project 윈도우에서 "01.Scenes\Test Scene"을 연다.
+1. Project 윈도우에서 "01.Scenes"에서 'Test Scene'을 연다.
 2. Hierarchy 윈도우에서 Behaviours라는 이름을 가진 오브젝트를 선택한다. 
 3. Inspector 윈도우에서 Behaviour Cloner라는 Component를 찾는다.
 4. Length에 생성하고자 하는 Object의 수를 입력한다. 예) 10000
